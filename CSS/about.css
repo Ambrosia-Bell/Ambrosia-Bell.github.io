@@ -1,0 +1,14 @@
+#about {
+    /* background-color: ; */
+    padding: 40px;
+    font-family: 'Courgette', cursive;
+    background-color: var(--mid-green);
+    /* margin: 0; */
+}
+
+
+#about a {
+    color: #32403F !important;
+    text-decoration: underline !important;
+    margin-left: 43%;
+}

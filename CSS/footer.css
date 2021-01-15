@@ -1,0 +1,6 @@
+footer {
+    font-family: 'Playfair Display', serif;
+    background-color: var(--black);
+    color: var(--green);
+    font-size: 15px;
+}

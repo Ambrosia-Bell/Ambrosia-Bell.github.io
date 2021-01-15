@@ -1,0 +1,7 @@
+.navbar {
+    background-color: var(--black);
+    font-family: 'Playfair Display', serif;
+}
+.navbar a {
+    color: var(--green)!important;
+}

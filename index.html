@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./CSS/main.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#header">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#projects">My Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+          <h1 class="display-4">Ambrosia Bell</h1>
+          <p class="lead">Student/Web Developer</p>
+        </div>
+      </div>
+
+
+     <!-- About -->
+      <section id="about">
+          <h1 style="text-align: center">About</h1>
+            <div class="container">
+                <div class="row">
+                    <div="col-6">
+                        <p> I was born in Indiana and spent most of my life here. I am currently a junior at Saint Mary’s College in Notre Dame, IN. I double major in Communication Studies and Gender and Women’s Studies. 
+                            As a student, I enjoy learning new skills and finding new ways to apply them. I enjoy looking at things from a different perspective and developing new approaches to problems. Learning programming languages in the Winter 2020 coding program allowed me to expand my knowledge and skills as I learn even more unique approaches to solving problems. I was also able to improve my creativity and develop a new way of thinking overall. As I continue my journey, I hope to be able to use these newfound skills in many different projects.
+                          </p>
+
+                          <br>
+
+                          <a href="https://docs.google.com/document/d/e/2PACX-1vSp9Zgj_9z5cVCrmzmk2IR51Td9XBxiXNYRGexyOlf9Hz6Y0GZ3t7mGZZf4b7QJLNzAIdqMFa7jBEFJ/pub">See My Resume Here</a>
+                    </div>
+                </div>
+            </div>
+          
+
+          
+
+      </section>
+      <!-- Projects -->
+      <section id="projects">
+          <h1 style="text-align: center">My Projects</h1>
+         
+          <div class= "container">
+          <div class="row">
+              <div class="col-4">
+
+                <p>Static Layout</p>
+                    <a target="_blank" href="https://ambrosia-bell.github.io/staticLayout/"> 
+                        <img src="assets/staticLayout (2).png" alt="StaticLayout" class="kast-thumbnail">
+                    </a>
+              </div>
+              <div class="col-4">
+                <p>CSS Creature</p>
+                    <a target="_blank" href="https://codepen.io/ambrosia-bell/full/QWKbmeG"> 
+                        <img src="assets/creature.png" alt="Creature" class="creature-thumbnail">
+                    </a>
+                   
+              </div>
+            <div class="col-4">
+                <p>CatFacts API</p>
+                    <a target="_blank" href="https://ab-apiproject.firebaseapp.com/"> 
+                        <img src="assets/catFactsAPI.png" alt="CatFacts" class="catFacts-thumbnail">
+                    </a>
+            </div>
+          </div>
+      </div>
+      </section>
+
+    
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+            <br>
+            <br>
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+                <div class="col-3">
+                    <!-- <a target="_blank" href="https://github.com/Ambrosia-Bell">GitHub</a> -->
+                </div>
+                <div class="col-6">
+                    <form action="https://formspree.io/ambrosia.d.bell@gmail.com" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>©ABell</p>
+    </footer>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
