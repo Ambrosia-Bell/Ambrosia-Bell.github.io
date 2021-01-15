@@ -9,3 +9,8 @@
     justify-content: center;
     margin-left: 5%;
 } */
+
+#contact a {
+    color: var(--green);
+    text-decoration: underline;
+}

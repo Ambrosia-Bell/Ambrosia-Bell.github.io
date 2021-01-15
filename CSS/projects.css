@@ -29,7 +29,7 @@
 .creature-thumbnail {
   height: 280px;
   width: 280px;
-  box-shadow: 10px 10px #5C9688;
+  box-shadow: 10px 10px var(--mint-ish-green);
 }
 
 .creature-thumbnail:hover {
@@ -40,7 +40,7 @@
 .kast-thumbnail {
   height: 280px;
   width: 280px;
-  box-shadow: 10px 10px #5C9688;
+  box-shadow: 10px 10px var(--mint-ish-green);
 }
 
 .kast-thumbnail:hover {
@@ -51,7 +51,7 @@
 .catFacts-thumbnail {
   height: 280px;
   width: 280px;
-  box-shadow: 10px 10px #5C9688;
+  box-shadow: 10px 10px var(--mint-ish-green);
 }
 
 .catFacts-thumbnail:hover {
